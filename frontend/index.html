@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="RK Web Developer builds modern websites, web applications and digital experiences that help businesses grow." />
+  <meta name="theme-color" content="#ffffff" />
+  <title>RK Web Developer | Code. Create. Grow.</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <style>
+    :root{--bg:#070713;--panel:#101326;--panel2:#151a31;--text:#f6f5ff;--muted:#a6abc2;--line:rgba(180,190,255,.16);--purple:#8b35ff;--blue:#28b9ff;--glow:0 0 35px rgba(139,53,255,.25);--max:1180px}
+    *{box-sizing:border-box}html{scroll-behavior:smooth;scroll-padding-top:90px}body{margin:0;background:radial-gradient(ellipse at 80% 8%,rgba(100,35,190,.18),transparent 32%),radial-gradient(ellipse at 0% 48%,rgba(0,111,255,.12),transparent 28%),var(--bg);color:var(--text);font-family:"DM Sans",sans-serif;line-height:1.6}a{color:inherit;text-decoration:none}button,input,textarea{font:inherit}.container{width:min(var(--max),calc(100% - 40px));margin:auto}.section{padding:88px 0}.eyebrow{color:#55caff;text-transform:uppercase;letter-spacing:2px;font-size:.78rem;font-weight:700}.gradient{background:linear-gradient(100deg,#fff 8%,#bd8aff 48%,#46c8ff 100%);-webkit-background-clip:text;background-clip:text;color:transparent}.btn{display:inline-flex;align-items:center;justify-content:center;gap:10px;border:1px solid transparent;border-radius:999px;padding:13px 21px;font-weight:700;cursor:pointer;transition:.25s}.btn-primary{background:linear-gradient(100deg,#8b35ff,#5c27e8);box-shadow:0 8px 28px rgba(124,45,255,.32);color:white}.btn-primary:hover{transform:translateY(-3px);box-shadow:0 12px 34px rgba(124,45,255,.48)}.btn-outline{border-color:var(--line);background:rgba(255,255,255,.035)}.btn-outline:hover{border-color:#9a5bff;background:rgba(139,53,255,.1)}.site-header{position:sticky;top:0;z-index:50;background:rgba(7,7,19,.82);backdrop-filter:blur(18px);border-bottom:1px solid var(--line)}.nav{height:76px;display:flex;align-items:center;justify-content:space-between;gap:22px}.brand{display:flex;align-items:center;gap:11px;font-family:"Space Grotesk",sans-serif;font-weight:700}.brand-mark{font-size:2rem;line-height:1;font-weight:700;letter-spacing:-5px;background:linear-gradient(130deg,#b96cff,#5a37ff 55%,#42caff);-webkit-background-clip:text;background-clip:text;color:transparent;padding-right:5px}.brand small{display:block;color:var(--muted);font:500 .68rem "DM Sans",sans-serif;letter-spacing:1.5px}.nav-links{display:flex;align-items:center;gap:27px;color:#d7d8e8;font-size:.9rem}.nav-links a:hover{color:#c28bff}.nav-actions{display:flex;align-items:center;gap:12px}.menu-btn{display:none;background:none;border:1px solid var(--line);color:white;border-radius:10px;padding:8px 11px;font-size:1.2rem}.hero{padding:75px 0 66px;min-height:590px;display:flex;align-items:center;position:relative;overflow:hidden}.hero-grid{display:grid;grid-template-columns:1.03fr .97fr;align-items:center;gap:32px}.pill{display:inline-flex;align-items:center;gap:8px;border:1px solid rgba(183,151,255,.35);background:rgba(139,53,255,.1);border-radius:999px;padding:7px 13px;color:#e6d7ff;font-size:.8rem}.hero h1{font:700 clamp(2.7rem,5.3vw,4.65rem)/1.04 "Space Grotesk",sans-serif;letter-spacing:-2.5px;margin:22px 0}.hero-copy{max-width:550px;color:#b9bdd0;font-size:1.05rem}.hero-buttons{display:flex;gap:13px;flex-wrap:wrap;margin:27px 0 34px}.stats{display:flex;gap:25px;flex-wrap:wrap}.stat{border-left:1px solid var(--line);padding-left:15px}.stat strong{display:block;font:700 1.45rem "Space Grotesk"}.stat span{color:var(--muted);font-size:.78rem}.hero-visual{position:relative;min-height:420px;display:grid;place-items:center}.device-glow{position:absolute;width:80%;height:65%;border-radius:50%;background:#762aff;filter:blur(100px);opacity:.28}.laptop{position:relative;width:min(100%,520px);border:1px solid rgba(190,185,255,.5);border-radius:20px;background:linear-gradient(145deg,#25294a,#090b18 65%);padding:12px;box-shadow:0 35px 70px #000,0 0 45px rgba(120,55,255,.25);transform:perspective(900px) rotateY(-8deg) rotateX(4deg)}.screen{border-radius:12px;min-height:300px;padding:27px;background:radial-gradient(circle at 80% 20%,rgba(129,51,255,.8),transparent 38%),linear-gradient(135deg,#111b48,#090b1c 65%);display:flex;flex-direction:column;justify-content:center;overflow:hidden}.screen .mini-logo{font:700 .85rem "Space Grotesk";color:#c9a1ff}.screen h3{font:700 clamp(1.8rem,3vw,2.6rem)/1.08 "Space Grotesk";max-width:280px;margin:25px 0 8px}.screen p{color:#d0d2e8;font-size:.85rem}.screen .mini-cta{width:max-content;background:#8b35ff;padding:9px 14px;border-radius:20px;font-size:.7rem;margin-top:12px}.laptop-base{height:15px;margin:0 -28px;background:linear-gradient(#a9a9c9,#33364e 50%,#17192a);border-radius:0 0 40px 40px}.float-card{position:absolute;right:-5px;bottom:22px;background:rgba(18,22,44,.92);border:1px solid var(--line);padding:14px 17px;border-radius:14px;box-shadow:var(--glow);font-size:.82rem}.float-card strong{display:block;font-size:1.1rem}.section-head{display:flex;align-items:end;justify-content:space-between;gap:25px;margin-bottom:32px}.section-head h2{font:700 clamp(2rem,4vw,3rem)/1.1 "Space Grotesk";margin:8px 0}.section-head p{color:var(--muted);max-width:500px;margin:0}.services-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}.service-card,.project-card,.price-card,.quote-card,.contact-card{background:linear-gradient(145deg,rgba(22,27,52,.9),rgba(10,13,28,.92));border:1px solid var(--line);border-radius:18px}.service-card{padding:25px;transition:.25s}.service-card:hover,.project-card:hover{transform:translateY(-5px);border-color:rgba(157,100,255,.6);box-shadow:var(--glow)}.service-icon{width:48px;height:48px;border-radius:14px;display:grid;place-items:center;font-size:1.35rem;background:linear-gradient(135deg,rgba(139,53,255,.22),rgba(40,185,255,.15));border:1px solid var(--line)}.service-card h3{font:600 1.12rem "Space Grotesk";margin:17px 0 7px}.service-card p{color:var(--muted);font-size:.9rem;margin:0 0 15px}.learn{color:#c79cff;font-size:.83rem;font-weight:700}.portfolio-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}.project-card{overflow:hidden;transition:.25s}.project-image{height:205px;padding:18px;display:flex;align-items:end;background-size:cover;background-position:center;position:relative}.project-image:after{content:"";position:absolute;inset:0;background:linear-gradient(transparent,rgba(4,5,15,.8))}.project-image span{position:relative;z-index:1;font:700 1.25rem "Space Grotesk"}.project-info{padding:17px 19px;display:flex;justify-content:space-between;gap:10px;align-items:center}.project-info small{color:var(--muted)}.project-info b{font-size:.92rem}.project-info a{color:#c99cff}.pricing-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px;align-items:stretch}.price-card{padding:26px;position:relative}.price-card.featured{border-color:#9d55ff;box-shadow:0 0 0 1px #9d55ff,var(--glow);background:linear-gradient(145deg,rgba(48,27,84,.8),rgba(12,15,32,.95))}.popular{position:absolute;top:-13px;left:50%;transform:translateX(-50%);background:linear-gradient(90deg,#9b42ff,#5b32ec);padding:5px 14px;border-radius:20px;font-size:.7rem;font-weight:700;white-space:nowrap}.price-card h3{font:600 1.2rem "Space Grotesk";margin:0}.price-card .desc{color:var(--muted);font-size:.85rem;min-height:25px}.price{font:700 2.2rem "Space Grotesk";margin:15px 0 0}.price small{font:400 .75rem "DM Sans";color:var(--muted)}.features{list-style:none;padding:0;margin:18px 0 24px;color:#d5d8e8;font-size:.87rem}.features li{margin:9px 0}.features li:before{content:"✓";color:#69e6c2;font-weight:700;margin-right:9px}.price-card .btn{width:100%}.testimonials{display:grid;grid-template-columns:repeat(3,1fr);gap:17px}.quote-card{padding:22px}.stars{color:#ffc64b;letter-spacing:2px}.quote-card p{color:#d7d9e8;font-size:.92rem}.person{display:flex;align-items:center;gap:11px;margin-top:18px}.avatar{width:39px;height:39px;border-radius:50%;display:grid;place-items:center;background:linear-gradient(135deg,#8b35ff,#1aaeea);font-weight:700}.person small{display:block;color:var(--muted)}.about-grid{display:grid;grid-template-columns:1fr 1fr;gap:40px;align-items:center}.about-panel{padding:32px;border:1px solid var(--line);border-radius:22px;background:radial-gradient(circle at 80% 10%,rgba(139,53,255,.22),transparent 45%),var(--panel)}.about-panel h3{font:700 1.7rem "Space Grotesk"}.about-panel p,.about-copy p{color:var(--muted)}.about-points{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin-top:22px}.about-points div{padding:13px;border-radius:12px;background:rgba(255,255,255,.04);font-size:.85rem}.contact-wrap{display:grid;grid-template-columns:.8fr 1.2fr;gap:20px}.contact-card{padding:26px}.contact-item{padding:13px 0;border-bottom:1px solid var(--line);color:#d7d9e8}.contact-item small{display:block;color:var(--muted)}.form-grid{display:grid;grid-template-columns:1fr 1fr;gap:13px}.field{display:flex;flex-direction:column;gap:7px}.field.full{grid-column:1/-1}.field label{font-size:.82rem;color:#d5d7e8}.field input,.field textarea{width:100%;background:#090c1b;border:1px solid var(--line);border-radius:11px;padding:13px;color:white;outline:none}.field input:focus,.field textarea:focus{border-color:#9b55ff}.field textarea{min-height:120px;resize:vertical}.form-note{font-size:.78rem;color:var(--muted);margin:10px 0 0}.footer{border-top:1px solid var(--line);padding:40px 0 20px;background:rgba(4,5,14,.6)}.footer-grid{display:grid;grid-template-columns:1.5fr 1fr 1fr 1.2fr;gap:25px}.footer h4{margin:0 0 13px}.footer p,.footer a{color:var(--muted);font-size:.85rem}.footer a{display:block;margin:7px 0}.footer a:hover{color:#c99cff}.copyright{border-top:1px solid var(--line);margin-top:28px;padding-top:18px;color:#8389a3;font-size:.77rem;display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap}.reveal{opacity:0;transform:translateY(18px);transition:.65s}.reveal.visible{opacity:1;transform:none}
+    /* Auto-sliding content carousels */
+    .slider-shell{position:relative;overflow:hidden}
+    .slider-track{display:flex;gap:18px;transition:transform .7s cubic-bezier(.22,.75,.25,1);will-change:transform}
+    .slider-track>.service-card{flex:0 0 calc((100% - 36px)/3)}
+    .slider-track>.project-card{flex:0 0 calc((100% - 18px)/2)}
+    .slider-track>.price-card{flex:0 0 100%}
+    .slider-track>.quote-card{flex:0 0 calc((100% - 18px)/2)}
+    .slider-controls{display:flex;align-items:center;justify-content:center;gap:12px;margin-top:22px}
+    .slider-arrow{width:40px;height:40px;border:1px solid var(--line);border-radius:50%;background:var(--panel2);color:white;font-size:1.15rem;cursor:pointer;transition:.2s}
+    .slider-arrow:hover{border-color:#9b55ff;background:rgba(139,53,255,.2)}
+    .slider-dots{display:flex;gap:7px;align-items:center}
+    .slider-dot{width:8px;height:8px;border:0;border-radius:50%;padding:0;background:#626782;cursor:pointer;transition:.2s}
+    .slider-dot.active{width:22px;border-radius:8px;background:linear-gradient(90deg,#9b42ff,#42caff)}
+    @media(max-width:900px){
+      .slider-track>.service-card{flex-basis:calc((100% - 18px)/2)}
+      .slider-track>.project-card,.slider-track>.quote-card{flex-basis:100%}
+    }
+    @media(max-width:700px){
+      .slider-track>.service-card,.slider-track>.project-card,.slider-track>.price-card,.slider-track>.quote-card{flex-basis:100%}
+    }
+    @media(max-width:900px){.nav-links{gap:15px}.hero-grid{grid-template-columns:1fr 1fr}.services-grid{grid-template-columns:repeat(2,1fr)}.portfolio-grid,.testimonials{grid-template-columns:repeat(2,1fr)}.footer-grid{grid-template-columns:repeat(2,1fr)}}
+    @media(max-width:700px){.container{width:min(100% - 30px,var(--max))}.nav{height:68px}.menu-btn{display:block}.nav-actions>.btn{display:none}.nav-links{display:none;position:absolute;top:68px;left:0;right:0;padding:18px 22px 22px;background:#0b0d1d;border-bottom:1px solid var(--line);flex-direction:column;align-items:flex-start;gap:17px}.nav-links.open{display:flex}.hero{padding:52px 0 35px}.hero-grid{grid-template-columns:1fr}.hero h1{font-size:clamp(2.65rem,12vw,4rem)}.hero-visual{min-height:320px;margin-top:5px}.screen{min-height:220px}.float-card{right:0;bottom:0}.section{padding:65px 0}.section-head{display:block}.section-head p{margin-top:10px}.services-grid,.portfolio-grid,.pricing-grid,.testimonials{grid-template-columns:1fr}.project-image{height:220px}.about-grid,.contact-wrap{grid-template-columns:1fr}.footer-grid{grid-template-columns:1fr 1fr}.stats{gap:15px}.stat{padding-left:10px}.stat strong{font-size:1.2rem}}
+    @media(max-width:420px){.footer-grid{grid-template-columns:1fr}.form-grid{grid-template-columns:1fr}.field.full{grid-column:auto}.hero-buttons .btn{width:100%}}
+    @media(prefers-reduced-motion:reduce){*{scroll-behavior:auto!important;transition:none!important}.reveal{opacity:1;transform:none}}
+  </style>
+
+  <style id="light-background-theme">
+    :root{--bg:#ffffff;--panel:#ffffff;--panel2:#f7f7fb;--text:#17172a;--muted:#62677a;--line:rgba(35,39,65,.14);--glow:0 8px 28px rgba(91,55,180,.10)}
+    body{background:#fff!important;color:#17172a!important}
+    .site-header{background:rgba(255,255,255,.94)!important;border-bottom:1px solid #e8e8ef!important}
+    .nav-links{color:#292940!important}
+    .nav-links a:hover{color:#7135d7!important}
+    .menu-btn{color:#24243a!important;border-color:#dedee8!important}
+    .hero-copy,.section-head p,.service-card p,.project-info small,.price-card .desc,.quote-card p,.about-panel p,.about-copy p,.contact-item,.footer p,.footer a{color:#62677a!important}
+    .stat span,.brand small,.form-note,.contact-item small{color:#73788a!important}
+    .service-card,.project-card,.price-card,.quote-card,.contact-card{background:#fff!important;border:1px solid #e6e6ef!important;box-shadow:0 8px 24px rgba(28,25,55,.055)}
+    .price-card.featured{background:linear-gradient(145deg,#f5edff,#fff)!important;border-color:#9d55ff!important}
+    .features{color:#34344b!important}
+    .about-panel{background:linear-gradient(145deg,#faf7ff,#fff)!important;border-color:#e6e0f2!important}
+    .about-points div{background:#f4f2fa!important;color:#34344b!important}
+    .field label{color:#34344b!important}
+    .field input,.field textarea{background:#fff!important;color:#17172a!important;border-color:#dedee8!important}
+    .btn-outline{color:#292940!important;border-color:#d9d6e5!important;background:#fff!important}
+    .footer{background:#f8f8fc!important;border-top:1px solid #e8e8ef!important}
+    .copyright{color:#73788a!important;border-color:#e2e2eb!important}
+    .pill{color:#6132a6!important;background:#f5efff!important;border-color:#e3d4ff!important}
+    .stat{border-color:#e2e2eb!important}
+    @media(prefers-reduced-motion:reduce){*{scroll-behavior:auto!important}}
+  </style>
+
+</head>
+<body>
+<header class="site-header">
+  <div class="container nav">
+    <a class="brand" href="#home" aria-label="RK Web Developer home"><span class="brand-mark">RK</span><span>RK Web Developer<small>CODE · CREATE · GROW</small></span></a>
+    <nav class="nav-links" id="navLinks" aria-label="Main navigation">
+      <a href="#home">Home</a><a href="#services">Services</a><a href="#portfolio">Portfolio</a><a href="#pricing">Pricing</a><a href="#referral">Refer & Earn</a><a href="#about">About</a><a href="#contact">Contact</a>
+    </nav>
+    <div class="nav-actions"><a class="btn btn-primary" href="#contact">Get a Quote ↗</a><button class="menu-btn" id="menuBtn" aria-label="Toggle navigation" aria-expanded="false">☰</button></div>
+  </div>
+</header>
+
+<main>
+<section class="hero" id="home">
+  <div class="container hero-grid">
+    <div>
+      <span class="pill">✦ Welcome to RK Web Developer</span>
+      <h1>Turn Your Ideas<br>Into <span class="gradient">Powerful Websites</span></h1>
+      <p class="hero-copy">We build modern websites, web applications and digital experiences that help your business look professional, reach more customers and grow online.</p>
+      <div class="hero-buttons"><a class="btn btn-primary" href="#contact">Start a Project&nbsp; →</a><a class="btn btn-outline" href="#portfolio">Explore Our Work&nbsp; ↗</a></div>
+      <div class="stats"><div class="stat"><strong>Modern</strong><span>Design approach</span></div><div class="stat"><strong>Responsive</strong><span>All screen sizes</span></div><div class="stat"><strong>Reliable</strong><span>Support & care</span></div></div>
+    </div>
+    <div class="hero-visual" aria-label="Website preview illustration"><div class="device-glow"></div><div class="laptop"><div class="screen"><span class="mini-logo">RK / DIGITAL STUDIO</span><h3>Build Your<br><span class="gradient">Dream Website.</span></h3><p>Fast · Secure · Responsive</p><span class="mini-cta">Let's build something great ↗</span></div><div class="laptop-base"></div></div><div class="float-card">✦ Digital experiences<strong>Made to grow</strong></div></div>
+  </div>
+</section>
+
+<section class="section" id="services"><div class="container">
+  <div class="section-head"><div><span class="eyebrow">✦ What we do</span><h2>Digital Services, <span class="gradient">Built for Growth</span></h2></div><p>Everything your business needs to create a strong and effective online presence.</p></div>
+  <div class="slider-shell" data-slider="services"><div class="services-grid slider-track">
+    <article class="service-card reveal"><div class="service-icon">⌘</div><h3>Website Development</h3><p>Fast, responsive and professional websites designed around your business goals.</p><a class="learn" href="#contact">Explore service →</a></article>
+    <article class="service-card reveal"><div class="service-icon">▣</div><h3>Web Applications</h3><p>Custom web apps, dashboards and business tools that simplify daily work.</p><a class="learn" href="#contact">Explore service →</a></article>
+    <article class="service-card reveal"><div class="service-icon">🛒</div><h3>E-Commerce Solutions</h3><p>Online stores with product pages, cart, checkout and order management.</p><a class="learn" href="#contact">Explore service →</a></article>
+    <article class="service-card reveal"><div class="service-icon">↗</div><h3>SEO Optimization</h3><p>Technical foundations and on-page improvements to help people discover you.</p><a class="learn" href="#contact">Explore service →</a></article>
+    <article class="service-card reveal"><div class="service-icon">◎</div><h3>Digital Marketing</h3><p>Campaign landing pages and digital experiences built to convert visitors.</p><a class="learn" href="#contact">Explore service →</a></article>
+    <article class="service-card reveal"><div class="service-icon">⚙</div><h3>Website Maintenance</h3><p>Updates, backups, fixes and ongoing care to keep your website healthy.</p><a class="learn" href="#contact">Explore service →</a></article>
+  </div><div class="slider-controls" aria-label="Services slider controls"><button class="slider-arrow" data-prev aria-label="Previous services">‹</button><div class="slider-dots"></div><button class="slider-arrow" data-next aria-label="Next services">›</button></div></div>
+</div></section>
+
+<section class="section" id="portfolio"><div class="container">
+  <div class="section-head"><div><span class="eyebrow">✦ Selected projects</span><h2>Work That Makes an <span class="gradient">Impact</span></h2></div><p>A few sample project concepts. Replace these with your real client work before publishing.</p></div>
+  <div class="slider-shell" data-slider="portfolio"><div class="portfolio-grid slider-track">
+    <article class="project-card reveal"><div class="project-image" style="background-image:linear-gradient(135deg,rgba(22,12,42,.1),rgba(3,6,18,.35)),url('https://images.unsplash.com/photo-1414235077428-338989a2e8c0?auto=format&fit=crop&w=900&q=85')"><span>Restaurant Experience</span></div><div class="project-info"><div><b>Restaurant Website</b><br><small>Web Design · Booking</small></div><a href="#contact" aria-label="Enquire about restaurant website">↗</a></div></article>
+    <article class="project-card reveal"><div class="project-image" style="background-image:linear-gradient(135deg,rgba(22,12,42,.1),rgba(3,6,18,.35)),url('https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?auto=format&fit=crop&w=900&q=85')"><span>Shop Smarter</span></div><div class="project-info"><div><b>E-Commerce Store</b><br><small>Online Store · Payments</small></div><a href="#contact" aria-label="Enquire about ecommerce website">↗</a></div></article>
+    <article class="project-card reveal"><div class="project-image" style="background-image:linear-gradient(135deg,rgba(22,12,42,.1),rgba(3,6,18,.35)),url('https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&w=900&q=85')"><span>Business Online</span></div><div class="project-info"><div><b>Business Website</b><br><small>Corporate · Lead Generation</small></div><a href="#contact" aria-label="Enquire about business website">↗</a></div></article>
+  </div><div class="slider-controls" aria-label="Portfolio slider controls"><button class="slider-arrow" data-prev aria-label="Previous portfolio">‹</button><div class="slider-dots"></div><button class="slider-arrow" data-next aria-label="Next portfolio">›</button></div></div>
+</div></section>
+
+<section class="section" id="pricing"><div class="container">
+  <div class="section-head"><div><span class="eyebrow">✦ Transparent pricing</span><h2>Choose Your <span class="gradient">Starting Plan</span></h2></div><p>These are editable sample starting prices. Final quotes depend on features, content and project scope.</p></div>
+  <div class="slider-shell" data-slider="pricing"><div class="pricing-grid slider-track">
+    <article class="price-card reveal"><h3>Starter</h3><p class="desc">For personal brands and small businesses</p><div class="price">₹4,999 <small>/ starting</small></div><ul class="features"><li>Up to 5 sections</li><li>Mobile responsive design</li><li>Contact / WhatsApp button</li><li>Basic on-page SEO</li><li>Delivery timeline agreed</li></ul><a class="btn btn-outline" href="#contact" data-plan="Starter">Choose Starter →</a></article>
+    <article class="price-card featured reveal"><span class="popular">POPULAR CHOICE</span><h3>Professional</h3><p class="desc">For growing businesses ready to scale</p><div class="price">₹9,999 <small>/ starting</small></div><ul class="features"><li>Multi-page website</li><li>Custom premium design</li><li>Lead / enquiry forms</li><li>SEO-ready structure</li><li>Support period included</li></ul><a class="btn btn-primary" href="#contact" data-plan="Professional">Choose Professional →</a></article>
+    <article class="price-card reveal"><h3>Advanced</h3><p class="desc">For businesses needing custom features</p><div class="price">₹14,999 <small>/ starting</small></div><ul class="features"><li>Custom functionality</li><li>Admin panel options</li><li>Database integration</li><li>Third-party integrations</li><li>Maintenance options</li></ul><a class="btn btn-outline" href="#contact" data-plan="Advanced">Choose Advanced →</a></article>
+  </div><div class="slider-controls" aria-label="Pricing slider controls"><button class="slider-arrow" data-prev aria-label="Previous pricing">‹</button><div class="slider-dots"></div><button class="slider-arrow" data-next aria-label="Next pricing">›</button></div></div>
+</div></section>
+
+
+<section class="section" id="referral"><div class="container">
+  <div class="section-head"><div><span class="eyebrow">✦ Referral programme</span><h2>Refer a Client, <span class="gradient">Grow Together</span></h2></div><p>Know someone who needs a website or digital solution? Introduce them to RK Web Developer using this referral form.</p></div>
+  <div class="contact-wrap">
+    <div class="contact-card"><h3>How it works</h3><p style="color:var(--muted)">Share your details and the interested person's contact information. Our team will follow up and track the referral using a unique reference code.</p>
+      <div class="contact-item">01 · Submit a referral<small>Enter your contact details and your friend's details.</small></div>
+      <div class="contact-item">02 · We get in touch<small>Our team contacts the person you referred.</small></div>
+      <div class="contact-item">03 · Track the status<small>Keep your referral code for future follow-up.</small></div>
+      <p class="form-note">Any referral reward or commission is subject to confirmation by RK Web Developer.</p>
+    </div>
+    <form class="contact-card" id="referralForm">
+      <div class="form-grid">
+        <div class="field"><label for="referrerName">Your name *</label><input id="referrerName" name="referrer_name" required placeholder="Your full name"></div>
+        <div class="field"><label for="referrerPhone">Your phone / WhatsApp *</label><input id="referrerPhone" name="referrer_phone" required inputmode="tel" placeholder="+91"></div>
+        <div class="field"><label for="referredName">Person you're referring *</label><input id="referredName" name="referred_name" required placeholder="Their full name"></div>
+        <div class="field"><label for="referredPhone">Their phone / WhatsApp *</label><input id="referredPhone" name="referred_phone" required inputmode="tel" placeholder="+91"></div>
+        <div class="field full"><label for="referralService">Interested service</label><input id="referralService" name="service" placeholder="Website / E-commerce / App"></div>
+        <div class="field full"><label for="referralMessage">Additional details</label><textarea id="referralMessage" name="message" placeholder="Anything we should know?"></textarea></div>
+        <div class="field full"><button class="btn btn-primary" type="submit">Submit Referral ↗</button><p class="form-note" id="referralFeedback" role="status">Your referral will be securely saved to the website backend.</p></div>
+      </div>
+    </form>
+  </div>
+</div></section>
+
+<section class="section" id="about"><div class="container about-grid">
+  <div class="about-copy"><span class="eyebrow">✦ About RK</span><h2 style="font:700 clamp(2rem,4vw,3rem)/1.1 'Space Grotesk'">We turn digital ideas into <span class="gradient">real experiences.</span></h2><p>RK Web Developer is a web development brand focused on clean design, useful functionality and responsive experiences. Our goal is to make quality web solutions approachable for businesses of every size.</p><p>We believe a good website should not only look beautiful — it should make it easier for customers to understand your offer and contact you.</p><a class="btn btn-primary" href="#contact">Let's work together →</a></div>
+  <div class="about-panel reveal"><span class="eyebrow">Our approach</span><h3>Simple process.<br><span class="gradient">Powerful results.</span></h3><p>From the first idea to launch, we keep the process clear and collaborative.</p><div class="about-points"><div>✦ Understand your goals</div><div>✦ Design the experience</div><div>✦ Build and test</div><div>✦ Launch and support</div></div></div>
+</div></section>
+
+<section class="section" id="testimonials"><div class="container">
+  <div class="section-head"><div><span class="eyebrow">✦ Client feedback</span><h2>Built on <span class="gradient">Trust</span></h2></div><p>Add genuine client reviews here once you have permission to publish them.</p></div>
+  <div class="slider-shell" data-slider="testimonials"><div class="testimonials slider-track">
+    <article class="quote-card reveal"><div class="stars">★★★★★</div><p>“The team understood our requirements and created a clean, professional online presence.”</p><div class="person"><div class="avatar">C</div><div><b>Client Name</b><small>Business Owner · Sample review</small></div></div></article>
+    <article class="quote-card reveal"><div class="stars">★★★★★</div><p>“The website works smoothly on mobile and makes it easy for customers to reach us.”</p><div class="person"><div class="avatar">C</div><div><b>Client Name</b><small>Founder · Sample review</small></div></div></article>
+    <article class="quote-card reveal"><div class="stars">★★★★★</div><p>“Clear communication, thoughtful design and a smooth project experience.”</p><div class="person"><div class="avatar">C</div><div><b>Client Name</b><small>Entrepreneur · Sample review</small></div></div></article>
+  </div><div class="slider-controls" aria-label="Testimonials slider controls"><button class="slider-arrow" data-prev aria-label="Previous testimonials">‹</button><div class="slider-dots"></div><button class="slider-arrow" data-next aria-label="Next testimonials">›</button></div></div>
+</div></section>
+
+<section class="section" id="contact"><div class="container">
+  <div class="section-head"><div><span class="eyebrow">✦ Get in touch</span><h2>Have a Project in <span class="gradient">Mind?</span></h2></div><p>Tell us what you want to build. We'll open WhatsApp with your enquiry ready to send.</p></div>
+  <div class="contact-wrap">
+    <div class="contact-card"><h3>Let's connect</h3><p style="color:var(--muted)">Have a question or want a quote? Reach out using the details below.</p><div class="contact-item">✉ <b>Email</b><small>hello@rkwebdeveloper.in (replace with your email)</small></div><div class="contact-item">⌖ <b>Location</b><small>Hingoli, Maharashtra, India (edit if needed)</small></div><div class="contact-item">◷ <b>Working hours</b><small>Monday – Saturday · 10 AM – 7 PM</small></div><p class="form-note">Update the sample contact information before publishing.</p></div>
+    <form class="contact-card" id="contactForm">
+      <div class="form-grid">
+        <div class="field"><label for="name">Your name *</label><input id="name" name="name" required placeholder="Enter your name"></div>
+        <div class="field"><label for="phone">Phone / WhatsApp *</label><input id="phone" name="phone" required inputmode="tel" placeholder="+91"></div>
+        <div class="field"><label for="email">Email</label><input id="email" name="email" type="email" placeholder="you@example.com"></div>
+        <div class="field"><label for="service">Service interested in</label><input id="service" name="service" placeholder="Website / E-commerce / App"></div>
+        <div class="field full"><label for="message">Project details *</label><textarea id="message" name="message" required placeholder="Tell us a little about your project..."></textarea></div>
+        <div class="field full"><button class="btn btn-primary" type="submit">Send Enquiry on WhatsApp&nbsp; ↗</button><p class="form-note">This demo form uses WhatsApp. It does not store submissions in a database.</p></div>
+      </div>
+    </form>
+  </div>
+</div></section>
+</main>
+
+<footer class="footer"><div class="container">
+  <div class="footer-grid">
+    <div><a class="brand" href="#home"><span class="brand-mark">RK</span><span>RK Web Developer<small>CODE · CREATE · GROW</small></span></a><p>Building digital experiences that help your business move forward.</p></div>
+    <div><h4>Quick Links</h4><a href="#home">Home</a><a href="#services">Services</a><a href="#portfolio">Portfolio</a><a href="#pricing">Pricing</a><a href="#referral">Refer & Earn</a></div>
+    <div><h4>Services</h4><a href="#services">Website Development</a><a href="#services">Web Applications</a><a href="#services">E-Commerce</a><a href="#services">Maintenance</a></div>
+    <div><h4>Start a Project</h4><p>Have an idea? Let's discuss how to bring it online.</p><a class="btn btn-primary" href="#contact">Contact RK ↗</a></div>
+  </div>
+  <div class="copyright"><span>© <span id="year"></span> RK Web Developer. All rights reserved.</span><span>Designed with care · India</span></div>
+</div></footer>
+
+<script>
+  // IMPORTANT: Replace this with your WhatsApp number including country code, without + or spaces.
+  const WHATSAPP_NUMBER = "919876543210";
+  // Set this to your deployed backend URL (no trailing slash).
+  const API_BASE_URL = "http://localhost:4000/api";
+
+  const menuBtn = document.getElementById("menuBtn");
+  const navLinks = document.getElementById("navLinks");
+  menuBtn.addEventListener("click", () => {
+    const isOpen = navLinks.classList.toggle("open");
+    menuBtn.setAttribute("aria-expanded", String(isOpen));
+    menuBtn.textContent = isOpen ? "✕" : "☰";
+  });
+  navLinks.querySelectorAll("a").forEach(link => link.addEventListener("click", () => {
+    navLinks.classList.remove("open");
+    menuBtn.setAttribute("aria-expanded", "false");
+    menuBtn.textContent = "☰";
+  }));
+  document.querySelectorAll("[data-plan]").forEach(link => link.addEventListener("click", () => {
+    document.getElementById("service").value = link.dataset.plan + " website package";
+  }));
+  document.getElementById("contactForm").addEventListener("submit", event => {
+    event.preventDefault();
+    const data = new FormData(event.currentTarget);
+    const message = [
+      "Hello RK Web Developer!",
+      "Name: " + data.get("name"),
+      "Phone: " + data.get("phone"),
+      "Email: " + (data.get("email") || "Not provided"),
+      "Service: " + (data.get("service") || "Not specified"),
+      "Project details: " + data.get("message")
+    ].join("\n");
+    if (WHATSAPP_NUMBER === "919876543210") {
+      alert("Please replace the sample WhatsApp number in the code before using this form.");
+      return;
+    }
+    window.open("https://wa.me/" + WHATSAPP_NUMBER + "?text=" + encodeURIComponent(message), "_blank", "noopener");
+  });
+  // Referral form: submits to the backend and returns a unique tracking code.
+  document.getElementById("referralForm").addEventListener("submit", async event => {
+    event.preventDefault();
+    const form = event.currentTarget;
+    const button = form.querySelector('button[type="submit"]');
+    const feedback = document.getElementById("referralFeedback");
+    button.disabled = true; button.textContent = "Submitting…";
+    try {
+      const payload = Object.fromEntries(new FormData(form).entries());
+      const response = await fetch(API_BASE_URL + "/referrals", {
+        method: "POST", headers: { "Content-Type": "application/json" }, body: JSON.stringify(payload)
+      });
+      const result = await response.json();
+      if (!response.ok) throw new Error(result.error || "Could not submit referral.");
+      feedback.textContent = "Referral submitted! Your tracking code: " + result.referral_code;
+      form.reset();
+    } catch (error) {
+      feedback.textContent = error.message + " Please check that the backend is running and API_BASE_URL is correct.";
+    } finally {
+      button.disabled = false; button.textContent = "Submit Referral ↗";
+    }
+  });
+
+  // Auto-advance sliders every 8 seconds; pause while hovered or touched.
+  document.querySelectorAll("[data-slider]").forEach(shell => {
+    const track = shell.querySelector(".slider-track");
+    const slides = Array.from(track.children);
+    const dotsWrap = shell.querySelector(".slider-dots");
+    const prev = shell.querySelector("[data-prev]");
+    const next = shell.querySelector("[data-next]");
+    let index = 0, timer, startX = 0, moved = false;
+    const visibleCount = () => {
+      if (shell.dataset.slider === "pricing") return 1;
+      if (matchMedia("(max-width:700px)").matches) return 1;
+      if (matchMedia("(max-width:900px)").matches) return shell.dataset.slider === "services" ? 2 : 1;
+      return shell.dataset.slider === "services" ? 3 : 2;
+    };
+    const maxIndex = () => Math.max(0, slides.length - visibleCount());
+    const buildDots = () => {
+      dotsWrap.innerHTML = "";
+      for (let i=0; i<=maxIndex(); i++) {
+        const dot=document.createElement("button");
+        dot.className="slider-dot"; dot.type="button";
+        dot.setAttribute("aria-label","Go to slide "+(i+1));
+        dot.addEventListener("click",()=>{goTo(i);restart();});
+        dotsWrap.appendChild(dot);
+      }
+    };
+    const goTo = value => {
+      index=value>maxIndex()?0:value<0?maxIndex():value;
+      const gap=parseFloat(getComputedStyle(track).gap)||0;
+      const step=slides[0].getBoundingClientRect().width+gap;
+      track.style.transform=`translate3d(${-index*step}px,0,0)`;
+      Array.from(dotsWrap.children).forEach((d,i)=>d.classList.toggle("active",i===index));
+    };
+    const restart=()=>{clearInterval(timer);timer=setInterval(()=>goTo(index+1),8000);};
+    prev.addEventListener("click",()=>{goTo(index-1);restart();});
+    next.addEventListener("click",()=>{goTo(index+1);restart();});
+    shell.addEventListener("mouseenter",()=>clearInterval(timer));
+    shell.addEventListener("mouseleave",restart);
+    shell.addEventListener("touchstart",e=>{startX=e.touches[0].clientX;moved=false;clearInterval(timer);},{passive:true});
+    shell.addEventListener("touchmove",e=>{if(Math.abs(e.touches[0].clientX-startX)>12)moved=true;},{passive:true});
+    shell.addEventListener("touchend",e=>{if(moved){const dx=e.changedTouches[0].clientX-startX;if(Math.abs(dx)>40)goTo(index+(dx<0?1:-1));}restart();},{passive:true});
+    buildDots();goTo(0);restart();
+    window.addEventListener("resize",()=>{buildDots();goTo(Math.min(index,maxIndex()));});
+  });
+
+  document.getElementById("year").textContent = new Date().getFullYear();
+  const observer = new IntersectionObserver(entries => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        entry.target.classList.add("visible");
+        observer.unobserve(entry.target);
+      }
+    });
+  }, {threshold: .12});
+  document.querySelectorAll(".reveal").forEach(el => observer.observe(el));
+</script>
+</body>
+</html>
